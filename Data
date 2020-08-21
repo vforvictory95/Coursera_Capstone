@@ -1,0 +1,5 @@
+2.1 SOURCE
+The data I used was the Data Collision information for the city of Seattle, from 2004-2020. This data is pulled from the police reports of the incidents, and has many variables,
+such as the weather, location, how the car hit something, and if people such as pedestrians or cyclists were involved. The target label, severity, is split into two results “1”
+for property-only collisions and “2” for collisions with injuries. While the dataset is large, it is clear from the outset that many columns can be dropped. Columns like
+“INATTENTIONIND” and “EXCEPTRSNCODE” are full of null values. Columns like “STATUS” and “REPORTNO” are filled, but irrelevant to the severity of the crash.
